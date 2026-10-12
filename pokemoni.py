@@ -22,7 +22,8 @@ def attack(P1:int, P2:int, army:str) -> str:
     print(temp)
     army1 = temp[:P1]
     army2 = temp[P1:]
-    print(army1,army2)
+    print(army1)
+    print(army2)
 
 print(attack(2,6,"Psychic Dark,Fire,Ghost Ice,Fairy Electric,Normal Steel,Ghost,Poison Fire,Dark Bug"))
     
